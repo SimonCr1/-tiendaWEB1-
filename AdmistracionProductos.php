@@ -68,7 +68,7 @@ a{
 <div class="container">
   <form action="RegistroProductos.php" method="POST">
     <h1 >GameStore
-    <img src="" alt=""></h1>
+    <img src="https://github.com/SimonCr1/fotosviernes6am/blob/main/controller.png?raw=true" alt=""></h1>
 
   <div class="row">
 
