@@ -9,7 +9,7 @@
 <style>
 
 nav{
-  background-color: darkblue;
+  background-color: #03d7fc;
 }
 
 h1{
@@ -22,7 +22,7 @@ body{
 }
 
 a{
-    color: black;
+    color: #ffffff;
 }
 
 </style>
@@ -30,7 +30,7 @@ a{
 </head>
 <body >
 <nav class="navbar navbar-expand-lg " >
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Registro</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -66,33 +66,56 @@ a{
 </nav>
 
 <div class="container">
-<form action="RegistroProductos.php" method="POST">
-    <h1 >GameStore</h1>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label> Nombre del Producto</label>
-      <input type="text" class="form-control"  name="nombre">
-    </div>
-    <div class="form-group col-md-6">
-      <label>Marca del Producto</label>
-      <input type="text" class="form-control"  name="marca">
-    </div>
-    <div class="form-group col-md-6">
-      <label> Precio del Producto</label>
-      <input type="text" class="form-control"  name="precio">
-    </div>
-    <div class="form-group col-md-6">
-      <label>Descripcion del Producto</label>
-      <input type="text" class="form-control"  name="descripcion">
-    </div>
-    <div class="form-group col-md-6">
-      <label>Foto</label>
-      <input type="text" class="form-control" name="foto">
-    </div>
+  <form action="RegistroProductos.php" method="POST">
+    <h1 >GameStore
+    <img src="" alt=""></h1>
+
+  <div class="row">
+
+        <div class="form-group col-md-5"  >
+          <label class="font-weight-bold"> Nombre del Producto</label>
+          <input type="text" class="form-control"  name="nombre">
+        </div>
+  
+
+    
+        <div class="form-group col-md-5"  >
+          <label class="font-weight-bold">Marca del Producto</label>
+          <input type="text" class="form-control"  name="marca">
+        </div>
+  </div>   
+  <div class="row">
+    
+      <div class="form-group col-md-5"  >
+        <label class="font-weight-bold"> Precio del Producto</label>
+        <input type="text" class="form-control"  name="precio">
+      </div>
+
+      <div class="form-group col-md-5"  >
+        <label class="font-weight-bold">Foto</label>
+        <input type="text" class="form-control" name="foto">
+      </div>
+  </div>    
+
+    
+      <div class="form-group col-md-5" >
+        <label class="font-weight-bold" >Descripcion del Producto</label>
+        <textarea  type="text" class="form-control"  name="descripcion"></textarea>
+      </div>
+   
+
+  
+    
+    
+    
  
     <button type="submit" class="btn btn-info btn-block" name="botonEnvio">Registrar</button>
+
+
+
 </form>
 </div>
+
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
