@@ -1,0 +1,23 @@
+.white{
+    color: #ffffff;
+    text-decoration: underline;
+    
+  }
+  
+  nav{
+    background-color: #6810c7;
+  }
+  
+  h1{
+      text-align: center;
+  }
+  
+  body{
+      background-color: #bf15e6;
+      background-image: url("https://github.com/SimonCr1/fotosviernes6am/blob/main/controller.png?raw=true");
+  }
+  
+  a{
+      color: #ffffff;
+  }
+

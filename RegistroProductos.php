@@ -20,4 +20,6 @@ if (isset($_POST["botonEnvio"])){
  
 }
 
+header("location:AdmistracionProductos.php")
+
  ?>

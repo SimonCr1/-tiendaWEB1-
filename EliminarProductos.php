@@ -10,10 +10,13 @@ $id=$_GET["id"];
 $transaccion= new Basedatos();
 
 //4. crear una consulta SQL para eliminar datos
-$consultaSQL="DELETE FROM productos WHERE idProductos='$id'";
+$consultaSQL="DELETE FROM productos WHERE idProducto='$id' ";
 
 //5.  ejecute el metodo eliminarUsuario
 $transaccion->eliminarDatos($consultaSQL);
+
+//6. Redireccion a la vista que necesite
+header("location:ListadoProductos.php")
 
 
 

@@ -19,7 +19,7 @@
         $transaccion = new Basedatos();
 
         //4. Crear una consulta SQL para eliminar datos
-        $consultaSQL="UPDATE productos SET nombre= '$nombre',marca='$marca',`descripcion`=[value-4],`precio`=[value-5],`foto`=[value-6] WHERE 1 ";
+        $consultaSQL="UPDATE productos SET nombre= '$nombre',marca='$marca', descripcion='$descripcion',precio='$precio', foto='$foto' WHERE idProducto ='$id' ";
 
         //5. Ejecutar el metodo editarUsuario
 
